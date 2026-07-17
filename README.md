@@ -2,6 +2,8 @@
 
 A monorepo for Nuxt applications. All dependencies in one place, building and testing via Turbo and pnpm workspaces.
 
+<img width="1698" height="348" alt="Screenshot 2026-07-17 at 16 39 18" src="https://github.com/user-attachments/assets/623080bd-b427-4a5c-ba57-cba96719c616" />
+
 ## Quick Start
 
 ```bash
