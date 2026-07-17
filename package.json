@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.5",
+  "scripts": {
+    "dev:platform": "turbo dev --filter=platform",
+    "dev:ui": "turbo dev --filter=ui",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.5",
+    "typescript": "^5.9.3"
+  }
+}

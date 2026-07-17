@@ -1,0 +1,30 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "exports": {
+    ".": "./nuxt.config.ts"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "eslint": "^9.39.1"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^4.4.8",
+    "@nuxt/ui": "^4.10.0",
+    "nuxt": "^4.4.8",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  }
+}
